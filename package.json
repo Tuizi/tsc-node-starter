@@ -14,6 +14,7 @@
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc -p .",
+    "dev": "tsc -p . -w",
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
